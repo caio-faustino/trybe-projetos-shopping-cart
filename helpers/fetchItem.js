@@ -1,7 +1,7 @@
 const fetchItem = async (search) => {
   // seu código aqui
   try {
-    const url = `https://api.mercadolibre.com/sites/MLB/search?q=${search}`;
+    const url = `https://api.mercadolibre.com/items/${search}`;
     const reply = await fetch(url);
     const data = await reply.json();
     return data;
