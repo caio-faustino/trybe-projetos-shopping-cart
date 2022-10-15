@@ -4,7 +4,7 @@
 /**
  * Função responsável por criar e retornar o elemento de imagem do produto.
  * @param {string} imageSource - URL da imagem.
- * @returns {Element} Elemento de imagem do produto.
+ * @returns {Element} Elemento de imagem do produto !!!
  */
 const createProductImageElement = (imageSource) => {
   const img = document.createElement('img');
